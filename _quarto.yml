@@ -7,8 +7,8 @@ project:
 website:
   title: "CBIT423 · Redes Complejas"
   description: "Introducción a Redes Complejas con aplicaciones en Ecología, Conservación y Socio-Ecosistemas — Universidad Austral de Chile"
-  site-url: "https://USUARIO.github.io/cbit423"
-  repo-url: "https://github.com/USUARIO/cbit423"
+  site-url: "https://horaciosamaniego.github.io/cbit423"
+  repo-url: "https://github.com/horaciosamaniego/cbit423"
   navbar:
     background: primary
     left:
@@ -24,7 +24,7 @@ website:
         text: Proyecto
     right:
       - icon: github
-        href: https://github.com/USUARIO/cbit423
+        href: https://github.com/horaciosamaniego/cbit423
         aria-label: Repositorio
   page-footer:
     center: |

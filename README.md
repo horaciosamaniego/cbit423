@@ -5,7 +5,7 @@
 Electiva de postgrado · 4 créditos · Segundo semestre
 Instituto de Conservación, Biodiversidad y Territorio — Universidad Austral de Chile
 
-### → **[Sitio del curso](https://USUARIO.github.io/cbit423)**
+### → **[Sitio del curso](https://horaciosamaniego.github.io/cbit423)**
 
 ---
 
@@ -43,10 +43,10 @@ Python sobre datos reales. Culmina en un reporte con análisis original y un sem
 
 | | |
 |---|---|
-| [Programa](https://USUARIO.github.io/cbit423/programa.html) | Objetivos, contenidos, evaluación, cronograma |
-| [Lecturas](https://USUARIO.github.io/cbit423/lecturas.html) | Anclas, papers hallmark y reglas de propuesta |
-| [Sesiones](https://USUARIO.github.io/cbit423/sesiones.html) | Diapositivas semanales, en HTML y PDF |
-| [Proyecto](https://USUARIO.github.io/cbit423/proyecto.html) | Qué se espera en cada hito |
+| [Programa](https://horaciosamaniego.github.io/cbit423/programa.html) | Objetivos, contenidos, evaluación, cronograma |
+| [Lecturas](https://horaciosamaniego.github.io/cbit423/lecturas.html) | Anclas, papers hallmark y reglas de propuesta |
+| [Sesiones](https://horaciosamaniego.github.io/cbit423/sesiones.html) | Diapositivas semanales, en HTML y PDF |
+| [Proyecto](https://horaciosamaniego.github.io/cbit423/proyecto.html) | Qué se espera en cada hito |
 | `lecturas/propuestas.md` | Aquí se registran las propuestas de lectura |
 | `proyecto/protocolo-plantilla.md` | Plantilla del Hito 2 |
 
