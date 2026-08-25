@@ -1,0 +1,42 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - "*.qmd"
+
+website:
+  title: "CBIT423 · Redes Complejas"
+  description: "Introducción a Redes Complejas con aplicaciones en Ecología, Conservación y Socio-Ecosistemas — Universidad Austral de Chile"
+  site-url: "https://horaciosamaniego.github.io/cbit423"
+  repo-url: "https://github.com/horaciosamaniego/cbit423"
+  navbar:
+    background: primary
+    left:
+      - href: index.qmd
+        text: Inicio
+      - href: programa.qmd
+        text: Programa
+      - href: lecturas.qmd
+        text: Lecturas
+      - href: sesiones.qmd
+        text: Sesiones
+      - href: proyecto.qmd
+        text: Proyecto
+    right:
+      - icon: github
+        href: https://github.com/horaciosamaniego/cbit423
+        aria-label: Repositorio
+  page-footer:
+    center: |
+      Instituto de Conservación, Biodiversidad y Territorio · Universidad Austral de Chile
+    right: |
+      Contenidos bajo [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es)
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    toc-title: "En esta página"
+    lang: es
+    anchor-sections: true

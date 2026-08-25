@@ -1,0 +1,78 @@
+---
+title: "Proyecto"
+description: "Qué se espera en cada hito"
+---
+
+El proyecto es el eje del curso, no su actividad terminal. Se trabaja sobre el propio sistema
+de estudio desde la primera semana.
+
+## Hito 1 — Ensayo comparado {#hito-1}
+
+::: {.hito}
+**Semana 2 · 15% de la nota**
+:::
+
+Ensayo de ~2.000 palabras que contraste cómo **cinco campos distintos** definen nodos y enlaces.
+Dos de las lecturas están dadas (Butts 2009, Proulx et al. 2005); las otras tres las propone el/la
+estudiante durante la semana 1.
+
+Para cada campo, responder: ¿qué es un nodo? ¿qué es un enlace? ¿qué pregunta habilita esa elección,
+y cuál deja fuera?
+
+## Hito 2 — Protocolo de problematización {#hito-2}
+
+::: {.hito}
+**Semana 5 · 20% de la nota** · Se defiende ante profesores invitados (25 min + preguntas)
+:::
+
+Documento de especificación que fija:
+
+1. **Definición de nodo** — qué entidad, a qué nivel de agregación, y por qué
+2. **Definición de enlace** — qué relación, dirigida o no, ponderada o no, y con qué umbral
+3. **Frontera del sistema** — qué queda fuera y con qué justificación
+4. **Formalizaciones descartadas** — al menos una alternativa defendible, y las razones del descarte
+5. **Hipótesis estructurales** — qué estructura se espera observar, y qué observación la refutaría
+6. **Requerimientos de datos** — qué se necesita, qué existe y qué falta
+
+::: {.callout-warning}
+## El protocolo es vinculante
+
+Todo cambio posterior a las definiciones fijadas aquí debe registrarse y justificarse en la bitácora,
+del mismo modo en que se documenta una desviación respecto de un plan de análisis preregistrado.
+El protocolo se convierte después en la sección de métodos del reporte final.
+:::
+
+## Hito 3 — Caracterización contrastada {#hito-3}
+
+::: {.hito}
+**Semana 11** · Se evalúa dentro del componente de bitácora y repositorio (20%)
+:::
+
+Caracterización topológica completa de la red propia, con cada patrón estructural contrastado
+contra un modelo nulo apropiado. La pregunta que hay que poder responder: **¿qué del patrón
+observado sobrevive a la aleatorización?**
+
+## Hito 4 — Borrador de resultados {#hito-4}
+
+::: {.hito}
+**Semana 14** · Parte del 30% del reporte final
+:::
+
+Sección de resultados y figuras finales, en formato de manuscrito. Las figuras deben ser
+reproducibles desde el repositorio con un solo comando.
+
+## Hito 5 — Reporte final y seminario {#hito-5}
+
+::: {.hito}
+**Semana 15** · Parte del 30% del reporte final
+:::
+
+Manuscrito breve (4.000–6.000 palabras: introducción, métodos, resultados, discusión) sobre datos
+propios, acompañado del repositorio que permite reproducir íntegramente los resultados.
+Presentación pública ante el Instituto y el Laboratorio.
+
+## Bitácora y repositorio
+
+Desde la semana 6, todo el trabajo reside en un repositorio único con historial de *commits*
+y cuadernos ejecutables. El repositorio es la evidencia principal de la evaluación continua:
+se evalúa el proceso visible, no sólo el resultado final.

@@ -1,0 +1,63 @@
+---
+title: "Introducción a Redes Complejas"
+subtitle: "con aplicaciones en Ecología, Conservación y Socio-Ecosistemas"
+---
+
+::: {.fase}
+**CBIT423** · Electiva de postgrado · 4 créditos · Segundo semestre
+Instituto de Conservación, Biodiversidad y Territorio — Universidad Austral de Chile
+Prof. responsable: Horacio Samaniego + profesores invitados
+:::
+
+## De qué se trata
+
+El curso desarrolla la capacidad de analizar sistemas complejos usando el formalismo de redes,
+con énfasis en socio-ecosistemas. No es un curso de herramientas: es un curso sobre **la decisión
+de representar un sistema como red** y sobre lo que esa decisión habilita y clausura.
+
+## Cómo está organizado
+
+::: {.fase}
+**Fase I — Problematización (semanas 1–5).** Sin programación. Un barrido comparado de la literatura
+de distintas disciplinas para examinar cómo cada campo convierte sus objetos en nodos y enlaces.
+Culmina en un **protocolo de problematización** del sistema propio, defendido ante profesores invitados.
+:::
+
+::: {.fase}
+**Fase II — Análisis computacional (semanas 6–15).** El protocolo se traslada al plano computacional:
+construcción, caracterización, contraste contra modelos nulos y modelación, con Python sobre datos reales.
+Culmina en un reporte con análisis original y un seminario abierto.
+:::
+
+## Qué hay que entregar
+
+::: {.hito}
+**Hito 1** · semana 2 — Ensayo comparado de formalizaciones (~2.000 palabras)
+**Hito 2** · semana 5 — Protocolo de problematización y su defensa
+**Hito 3** · semana 11 — Caracterización contrastada contra modelos nulos
+**Hito 4** · semana 14 — Borrador de resultados y figuras
+**Hito 5** · semana 15 — Reporte final y seminario abierto
+:::
+
+## Materiales
+
+- [Programa completo](programa.qmd) — objetivos, contenidos, evaluación y cronograma
+- [Plan de lecturas](lecturas.qmd) — anclas, papers hallmark y reglas de propuesta
+- [Sesiones](sesiones.qmd) — diapositivas semanales en HTML y PDF
+- [Proyecto](proyecto.qmd) — qué se espera en cada hito
+
+## Textos de referencia
+
+**En español.** Ramos-Jiliberto, R. (2020). *Deja a la Estructura Hablar: Modelización y Análisis de
+Sistemas Naturales, Sociales y Socioecológicos*. Ediciones Umayor.
+
+**En inglés.** Barabási, A.-L. (2016). *Network Science*. Cambridge University Press.
+Disponible libremente en [networksciencebook.com](http://networksciencebook.com).
+
+::: {.callout-note}
+## Sobre los artículos
+
+Los artículos de las lecturas **no se distribuyen desde este sitio**. La página de
+[lecturas](lecturas.qmd) entrega la referencia completa y el DOI de cada uno; el acceso se gestiona
+a través de la biblioteca de la UACh o del aula virtual del curso.
+:::

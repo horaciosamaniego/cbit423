@@ -1,0 +1,6 @@
+---
+title: "Programa"
+description: "Programa oficial de la asignatura"
+---
+
+{{< include _programa.md >}}

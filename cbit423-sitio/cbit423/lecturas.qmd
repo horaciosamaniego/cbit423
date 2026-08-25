@@ -1,0 +1,14 @@
+---
+title: "Plan de lecturas"
+description: "Anclas conceptuales, papers hallmark y lecturas propuestas por el/la estudiante"
+---
+
+::: {.callout-important}
+## Acceso a los artículos
+
+Este sitio no aloja PDFs de artículos. Cada referencia incluye datos completos para localizarla
+a través de la biblioteca de la UACh. Las propuestas de lectura se registran en
+`lecturas/propuestas.md` del repositorio del curso.
+:::
+
+{{< include _lecturas.md >}}

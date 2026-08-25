@@ -1,0 +1,40 @@
+---
+title: "Sesiones"
+description: "Diapositivas semanales"
+---
+
+Las diapositivas se compilan automáticamente desde los archivos Marp en `slides/` cada vez
+que se actualiza el repositorio. Cada sesión está disponible en HTML (navegable) y en PDF (imprimible).
+
+## Fase I — Problematización
+
+| Sem. | Sesión | HTML | PDF |
+|:---:|---|:---:|:---:|
+| 1 | La red como formalismo | [ver](slides/sesion-01.html) | [pdf](slides/sesion-01.pdf) |
+| 2 | Barrido comparado entre disciplinas | — | — |
+| 3 | Vocabulario formal sin cómputo | — | — |
+| 4 | Frontera, muestreo y agregación | — | — |
+| 5 | Formalizaciones alternativas · **Hito 2** | — | — |
+
+## Fase II — Análisis computacional
+
+| Sem. | Sesión | HTML | PDF |
+|:---:|---|:---:|:---:|
+| 6 | Del protocolo al listado de enlaces | — | — |
+| 7 | Distribuciones de grado | — | — |
+| 8 | Caminos, centralidades, asortatividad | — | — |
+| 9 | Modelos nulos | — | — |
+| 10 | Detección de comunidades | — | — |
+| 11 | Validación de comunidades · **Hito 3** | — | — |
+| 12 | Modelos generativos | — | — |
+| 13 | Módulo electivo | — | — |
+| 14 | Escritura y reproducibilidad · **Hito 4** | — | — |
+| 15 | Seminario abierto · **Hito 5** | — | — |
+
+::: {.callout-tip}
+## Cómo se leen estas diapositivas
+
+Cada sesión incluye un bloque fijo de cuatro diapositivas sobre el **paper de la semana**:
+la decisión de formalización, la figura central, qué hace bien y qué no resiste.
+Ese bloque se repite las quince semanas — es el eje de lectura del curso.
+:::
