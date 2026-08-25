@@ -34,7 +34,7 @@ El curso se dicta en español; la literatura primaria está en inglés sin excep
 
 | Sem. | Ancla conceptual | Paper hallmark | Lectura propuesta |
 |:---:|---|---|---|
-| **1** | Barabási, caps. 1–2 (secc. 2.1–2.5) | **Butts, C. T. (2009).** Revisiting the foundations of network analysis. *Science*, 325(5939), 414–416. | — (semana de apertura) |
+| **1** | Barabási, caps. 1–2 (secc. 2.1–2.5) | **Butts, C. T. (2009).** [Revisiting the foundations of network analysis.](https://dx.org/doi/10.1126/science.1171022) *Science*, 325(5939), 414–416. | — (semana de apertura) |
 | **2** | Ramos-Jiliberto, caps. introductorios | **Proulx, S. R., Promislow, D. E. L., & Phillips, P. C. (2005).** Network thinking in ecology and evolution. *TREE*, 20(6), 345–353. | **3 artículos**, uno por campo ajeno, insumo directo del Hito 1 |
 | **3** | Barabási, cap. 2 completo | **Bascompte, J., & Jordano, P. (2007).** Plant-animal mutualistic networks: the architecture of biodiversity. *Annu. Rev. Ecol. Evol. Syst.*, 38, 567–593. | Terreno propio: un artículo con red bipartita o ponderada |
 | **4** | Ramos-Jiliberto (muestreo y datos) | **Kossinets, G. (2006).** Effects of missing data in social networks. *Social Networks*, 28(3), 247–268. | Terreno propio: un artículo donde la decisión de frontera sea explícita — o llamativamente ausente |
