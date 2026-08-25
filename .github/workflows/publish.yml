@@ -1,0 +1,66 @@
+name: Publicar sitio del curso
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clonar repositorio
+        uses: actions/checkout@v4
+
+      - name: Instalar Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Renderizar sitio
+        run: quarto render
+
+      - name: Instalar Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Instalar Marp CLI
+        run: npm install -g @marp-team/marp-cli
+
+      - name: Compilar diapositivas
+        env:
+          CHROME_PATH: /usr/bin/google-chrome
+        run: |
+          mkdir -p _site/slides
+          shopt -s nullglob
+          for f in slides/sesion-*.md; do
+            base=$(basename "$f" .md)
+            echo "→ $base"
+            marp --no-stdin "$f" --html --allow-local-files -o "_site/slides/${base}.html"
+            marp --no-stdin "$f" --pdf  --allow-local-files -o "_site/slides/${base}.pdf" || \
+              echo "AVISO: falló el PDF de ${base}; el HTML sí se publicó."
+          done
+
+      - name: Subir artefacto
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Desplegar en GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

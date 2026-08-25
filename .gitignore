@@ -1,0 +1,31 @@
+# ─────────────────────────────────────────────────────────────
+# ARTÍCULOS — NO COMMITEAR
+# Los PDFs de literatura primaria están bajo copyright. Publicarlos
+# en un repositorio público es redistribución. Se distribuyen por el
+# aula virtual o la biblioteca UACh; aquí sólo van las referencias.
+# ─────────────────────────────────────────────────────────────
+lecturas/hallmark/
+lecturas/**/*.pdf
+
+# Datos del/de la estudiante — pueden ser sensibles o no publicables
+proyecto/datos/
+
+# Quarto
+/_site/
+/.quarto/
+*_files/
+*_cache/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Manual de mantención — descomentar si se prefiere no publicarlo
+# MANTENCION.md

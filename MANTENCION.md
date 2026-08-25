@@ -3,7 +3,7 @@
 Sitio del curso *Introducción a Redes Complejas con aplicaciones en Ecología, Conservación y
 Socio-Ecosistemas*. Instituto de Conservación, Biodiversidad y Territorio, Universidad Austral de Chile.
 
-Sitio publicado: **https://horaciosamaniego.github.io/cbit423**
+Sitio publicado: **https://USUARIO.github.io/cbit423**
 
 ---
 
@@ -22,7 +22,7 @@ gh repo create cbit423 --public --source=. --push
 Sin `gh`: crear el repositorio en github.com y luego
 
 ```bash
-git remote add origin https://github.com/horaciosamaniego/cbit423.git
+git remote add origin https://github.com/USUARIO/cbit423.git
 git push -u origin main
 ```
 
@@ -32,12 +32,12 @@ En el repositorio: **Settings → Pages → Build and deployment → Source: Git
 
 No elegir "Deploy from a branch" — el flujo de trabajo publica el artefacto directamente.
 
-### 3. Reemplazar `horaciosamaniego`
+### 3. Reemplazar `USUARIO`
 
 Aparece en tres archivos: `_quarto.yml` (dos veces), `README.md` y `index.qmd`.
 
 ```bash
-grep -rl horaciosamaniego . --exclude-dir=.git | xargs sed -i 's/horaciosamaniego/tu-usuario/g'
+grep -rl USUARIO . --exclude-dir=.git | xargs sed -i 's/USUARIO/tu-usuario/g'
 ```
 
 ### 4. Primer despliegue
