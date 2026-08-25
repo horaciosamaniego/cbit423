@@ -33,9 +33,13 @@ Culmina en un reporte con análisis original y un seminario abierto.
 
 ::: {.hito}
 **Hito 1** · semana 2 — Ensayo comparado de formalizaciones (~2.000 palabras)
+
 **Hito 2** · semana 5 — Protocolo de problematización y su defensa
+
 **Hito 3** · semana 11 — Caracterización contrastada contra modelos nulos
+
 **Hito 4** · semana 14 — Borrador de resultados y figuras
+
 **Hito 5** · semana 15 — Reporte final y seminario abierto
 :::
 
